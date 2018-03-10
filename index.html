@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="library/jquery-3.2.1.js"></script>
+    <script src="js/Board.js"></script>
+    <script src="js/Snake.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="game">
+            <div class="stat_game">Счет: <span class="score"></span>. Уровень <span class="level"></span>.</div>
+            <div class="pause_status"><span>Пауза</span></div>
+            <div class="board_conteiner"></div>
+            <div class="buttons">
+                <div class="start"><img src="img/play.png" alt="play"></div>
+                <div class="pause"><img src="img/pause.png" alt="pause"></div>
+                <div class="stop"><img src="img/stop.png" alt="stop"></div>
+            </div>
+        </div>
+        <div class="info">
+            <p><span class="info_cell_snake"></span> <span>Змейка</span></p>
+            <p><span class="info_cell_food"></span> <span>Еда</span></p>
+            <p><span class="info_cell_obstacle"></span><span>Препятствия</span></p>
+            <p><img src="img/button-play.png" class="info_img"><img src="img/play.png" class="info_img"><span>Старт новой игры/выкл. паузы</span></p>
+            <p><img src="img/button-pause.png" class="info_img"><img src="img/pause.png" class="info_img"><span>Вкл. паузы</span></p>
+            <p><img src="img/button-stop.png" class="info_img"><img src="img/stop.png" class="info_img"><span>Стоп-игра</span></p>
+            <p><img src="img/up.png" class="info_img"><img src="img/left.png" class="info_img"><img src="img/down.png" class="info_img"><img src="img/right.png" class="info_img"><span>Управление змейкой</span></p>
+
+        </div>
+    </div>
+</body>
+</html>
