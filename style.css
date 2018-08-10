@@ -71,11 +71,17 @@ body {
     text-align: center;
 }
 
-.start, .stop, .pause {
+.button {
     display: inline-block;
     padding: 3px;
     cursor: pointer;
+    border-radius: 5px;
 }
+
+.button:hover {
+    box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.77);
+}
+
 
 .buttons img {
     width: 40px;
